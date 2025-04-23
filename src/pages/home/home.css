@@ -1,0 +1,11 @@
+.home-features {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.home-features > ul {
+  list-style: none;
+  padding: 0;
+}
