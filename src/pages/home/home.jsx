@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="home-container">
       <header className="home-header">
-        <h1>Welcome to the Pig Iron Pit</h1>
+        <h1>Welcome to the Pig Iron Pit Gym</h1>
         <p>Your journey to a healthier life starts here!</p>
       </header>
       <section className="home-intro">
