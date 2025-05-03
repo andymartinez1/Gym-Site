@@ -1,0 +1,14 @@
+.footer {
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  padding: 1rem 2rem;
+  color: white;
+  height: 7vh;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
