@@ -35,7 +35,9 @@ export default function Footer() {
           </a>
         </div>
         <div className="footer-copyright">
-          <p>&copy; {new Date().getFullYear()} GymSite. All rights reserved.</p>
+          <p>
+            &copy; {new Date().getFullYear()} Pig Iron Pit. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>

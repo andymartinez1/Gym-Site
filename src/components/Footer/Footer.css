@@ -1,14 +1,26 @@
 .footer {
-  display: flex;
+  /* display: flex; */
+  justify-content: center;
   align-items: center;
   background-color: #333;
   padding: 1rem 2rem;
   color: white;
-  height: 7vh;
+  height: 5rem;
 }
 
 .footer-links {
   display: flex;
-  flex-direction: row;
-  list-style: none;
+  justify-content: center;
+}
+
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer-copyright {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.8rem;
 }
