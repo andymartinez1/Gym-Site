@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     --color-primary: #D84040;
     --color-secondary: #8E1616;
@@ -15,6 +17,7 @@ html {
 }
 
 body {
+    font-family: "Roboto", "Roboto Condensed", sans-serif;
     margin-bottom: 60px;
     background-color: var(--color-light);
 }
@@ -25,10 +28,32 @@ body {
 
 .navbar-brand {
     color: var(--color-light);
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+.navbar-brand-logo {
+    height: 70px;
+    margin-right: 1rem;
 }
 
 .nav-link {
     color: var(--color-primary);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: var(--color-light);
+}
+
+.home-container {
+    
+}
+
+.home-features ul {
+    list-style: none;
+    padding: 0;
 }
 
 .footer {
